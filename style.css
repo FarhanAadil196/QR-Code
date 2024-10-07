@@ -1,0 +1,70 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1px);
+}
+
+.container {
+    box-shadow: 0px 0px 20px 10px #191919;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(54, 54, 54, 0.409);
+    backdrop-filter: blur(17%);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+
+}
+
+#qrcode {
+    height: 250px;
+    width: 250px;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 3px dimgrey;
+}
+
+#text {
+    height: 35px;
+    padding: 5px;
+    font-size: 17px;
+    box-shadow: inset 0px 0px 10px 3px dimgrey;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 1px 1px 9px 2px rgb(48, 48, 48);
+    transition: all 0.5s ease;
+    background: rgb(53, 114, 172);
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 0px 2px dimgrey;
+    transform: scale(102%);
+}
